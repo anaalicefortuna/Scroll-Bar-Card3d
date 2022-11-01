@@ -1,0 +1,35 @@
+/*::-webkit-scrollbar {
+    width: 2px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #5f5d5d, #da0000;
+    width: 2px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 20px;
+   /* border: 5px solid  #ffaa00, #000000;*/
+
+   * {
+    scrollbar-width: thin;
+    scrollbar-color: #f30000;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 0px;
+}
+
+*::-webkit-scrollbar-track {
+    width: 2px;
+    margin: 20px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 20px;
+
+    width: 5px;
+}

@@ -1,0 +1,42 @@
+body{
+    /*background-image: url(../imagens/1c2a44.png);*/
+    background: linear-gradient(150deg,#020024, #790972, #ff0044);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 1000px;
+    height: 200px;
+    overflow-x:scroll; /* Hide horizontal scrollbar */
+   /* background-color: #1c2a44;*/
+    padding: 2%;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 #580606, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.div-transform {
+    display: flex;
+    transform: rotateX(10deg) rotateY(15deg) rotateZ(-9deg) scale3d(1, 1, -0.9)
+      scale(1.1) translateX(50px);
+}
+
+img {
+    width: 180px;
+    height: 180px;
+    box-shadow: 0px 0px 15px black;
+    margin-right: 50px; 
+
+}
